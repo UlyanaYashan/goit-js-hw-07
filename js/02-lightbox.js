@@ -34,9 +34,6 @@ function onMainDivEl(evt) {
     if (!isImage) {
       return;
     }
-
+    var lightbox = new SimpleLightbox('.gallery a', {captionsData: 'alt', captionPosition:'bottom', captionDelay: 250, animationSlide: true });
 
 }
-// const lightbox = new SimpleLightbox('.gallery a', {
-//     captionsData: 'alt', captionPosition: 'bottom', captionDelay: 250
-//   });
