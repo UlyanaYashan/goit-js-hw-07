@@ -41,9 +41,9 @@ const instance = basicLightbox.create(`
 instance.show()
 
 
-mainDivEl.addEventListener('keydown', (evt) => {
-  if (evt.code === 'Escape') {
-    instance.close();
-  }
-})
+// mainDivEl.addEventListener('keyup', (evt) => {
+//   if (evt.code === 'Escape') {
+//     instance.close();
+//   }
+// })
 }
